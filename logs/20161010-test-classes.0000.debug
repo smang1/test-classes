@@ -1,0 +1,3 @@
+20161010 12:16:59;INFO;CreateHBaseDeleteStatement:18;Creating id's
+20161010 12:16:59;INFO;CreateHBaseDeleteStatement:25;Creating id's - OK
+20161010 12:16:59;ERROR;CreateHBaseDeleteStatement:26;No error
