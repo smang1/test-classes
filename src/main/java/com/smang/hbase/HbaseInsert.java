@@ -1,3 +1,5 @@
+package com.smang.hbase;
+
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
@@ -11,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by frup66315 on 26/10/2016.
+ * Created by smang on 26/10/2016.
  */
 public class HbaseInsert {
 
@@ -52,7 +54,7 @@ public class HbaseInsert {
 
     public static void main(String[] args) {
 
-        System.out.println(getJSONObjs("C:\\Users\\frup66315\\Documents\\IntelijWorkspace\\test-classes\\data\\testJSON.txt") );
+        System.out.println(getJSONObjs("data\\testJSON.txt") );
 
     }
 }

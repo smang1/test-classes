@@ -1,3 +1,5 @@
+package com.smang.hbase;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.*;
@@ -9,7 +11,7 @@ import java.io.IOException;
 import java.security.PrivilegedAction;
 
 /**
- * Created by frup66315 on 24/10/2016.
+ * Created by smang on 24/10/2016.
  */
 public class HbaseGetRow {
 

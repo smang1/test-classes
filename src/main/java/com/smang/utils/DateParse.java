@@ -1,3 +1,5 @@
+package com.smang.utils;
+
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -6,7 +8,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by frup66315 on 29/09/2016.
+ * Created by smang on 29/09/2016.
  */
 public class DateParse {
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");

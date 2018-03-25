@@ -1,3 +1,5 @@
+package com.smang.webservices;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,14 +11,14 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by frup66315 on 29/07/2016.
+ * Created by smang on 29/07/2016.
  */
 public class GetSeqNum {
 
     public static void main(String[] args) {
 
         try {
-            URL url = new URL("http://172.16.145.118:8080//uniqueSeq?count=1");
+            URL url = new URL("http://localhost:8080//uniqueSeq?count=1");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept", "application/json");

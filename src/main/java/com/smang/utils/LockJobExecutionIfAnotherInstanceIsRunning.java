@@ -1,3 +1,4 @@
+package com.smang.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -5,9 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by frup66315 on 30/05/2016.
+ * Created by smang on 30/05/2016.
  */
-public class MyIds {
+public class LockJobExecutionIfAnotherInstanceIsRunning {
 
     private static boolean lock()
     {

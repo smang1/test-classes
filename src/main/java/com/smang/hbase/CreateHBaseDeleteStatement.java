@@ -1,7 +1,7 @@
+package com.smang.hbase;
+
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-
-import java.lang.reflect.Array;
 
 /**
  * Created by SMA on 07/10/2016.

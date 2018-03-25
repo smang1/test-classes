@@ -1,9 +1,11 @@
+package com.smang.utils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by frup66315 on 18/08/2016.
+ * Created by smang on 18/08/2016.
  */
 public class ArrayListContains {
     public static void main(String[] args) {

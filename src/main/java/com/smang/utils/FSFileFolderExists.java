@@ -1,7 +1,9 @@
+package com.smang.utils;
+
 import java.io.File;
 
 /**
- * Created by frup66315 on 11/10/2016.
+ * Created by smang on 11/10/2016.
  */
 public class FSFileFolderExists {
 
